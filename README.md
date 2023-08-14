@@ -1,5 +1,5 @@
 # Distance Measurement
-This simple Symfony CLI application will go through 8 addresses and calculate the distance between each address to Adchieve HQ. 
+This simple Symfony CLI application will go through 8 addresses and calculate the distance between each given address to the given destination. 
 
 # Prerequisites
 - PHP 8.2.8
@@ -10,8 +10,7 @@ This simple Symfony CLI application will go through 8 addresses and calculate th
 - Clone this repo
 - `composer install`
 - `cp .env.example .env`
-- Edit PositionStack access key in `.env`
-- Grab PositionStack API key and edit it in the .env file (It is also pre-configured)
+- Edit PositionStack access key in previously generated `.env`
 
 # Usage
 As simple as executing `php bin/console calculate:distance` and you will see the output in your terminal with the progress.

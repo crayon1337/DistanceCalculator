@@ -1,4 +1,4 @@
-name: DistanceNavigator CI/CD - PHP 8.2
+name: DistanceCalculator CI/CD - PHP 8.2
 
 on:
   push:

@@ -25,7 +25,7 @@ A key that holds two properties (name and an address)
 - addresses <br>
 A key that holds an array of addresses (each address should include a name and an address)
 
-Look [in this file](https://github.com/crayon1337/DistanceNavigator/blob/main/files/addresses.json) for reference.
+Look [in this file](https://github.com/crayon1337/DistanceCalculator/blob/main/files/addresses.json) for reference.
 
 If everything went well you'll see a new `distances.csv` file created in the files directory and includes all the addresses and their distance to the HQ.
 
@@ -43,4 +43,4 @@ However, PRs shall NOT be merged into development or production branches before 
 Please note that, this is basic yet powerful implementation where I utilize the usage of DTOs, Service, External Service, Error handling, testing and helper utility classes.
 
 # Results
-You can see a sample of results in [this CSV file](https://github.com/crayon1337/DistanceNavigator/blob/main/files/distances.csv)
+You can see a sample of results in [this CSV file](https://github.com/crayon1337/DistanceCalculator/blob/main/files/distances.csv)
